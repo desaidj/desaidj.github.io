@@ -1,0 +1,98 @@
+/* Projects.css */
+
+.projects-section {
+  padding: 20px;
+  text-align: center; /* Align project containers to center */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap; /* Added to enable wrapping */
+  gap: 20px;
+  justify-content: center; /* Align project containers to center */
+}
+
+.project {
+  flex-basis: 40%; 
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  transform: translateZ(-10px);
+  box-shadow: 15px 15px 30px #21325e;;
+}
+
+.project h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.project p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.tech-stack h4 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tech-stack ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tech-stack li {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #555;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.tech-stack-filter,
+.skills-filter {
+  margin-bottom: 20px;
+}
+
+.tech-stack-filter h3,
+.skills-filter h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tech-stack-filter button,
+.skills-filter button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tech-stack-filter button.active,
+.skills-filter button.active {
+  background-color: #21325e;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+} 
+
