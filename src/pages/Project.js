@@ -49,6 +49,12 @@ function Projects() {
       techStack: ['React.js', 'Redux', 'React Router', 'Node.js', 'Express.js', 'MongoDB'], githubLink: 'https://github.com/desaidj/tasker', 
       skills: ['Full Stack', 'Cloud'] 
     },
+    { id: 6, name: 'This website', description: 
+    '• built this portfolio ',
+      techStack: ['React.js', 'html', 'CSS'], githubLink: 'desaidj.github.io', 
+      skills: ['FrontEnd'] 
+    },
+    
     // Add more projects with techStack, githubLink, and skills
   ];
 
