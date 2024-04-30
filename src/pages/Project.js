@@ -49,11 +49,25 @@ function Projects() {
       techStack: ['React.js', 'Redux', 'React Router', 'Node.js', 'Express.js', 'MongoDB'], githubLink: 'https://github.com/desaidj/tasker', 
       skills: ['Full Stack', 'Cloud'] 
     },
-    { id: 6, name: 'This website', description: 
+    { id: 7, name: 'RoamRight', description: 
+    '• Developing a personalized travel chatbot using LLMs for enhanced user engagement'+
+    '• Employed Airoboros and fine-tuned the Llama2 model to ensure tailored recommendations and crafted a responsive user interface'+
+    'using Gradio. Utilized Retrieval Augmented Generation (RAG)'+
+    '• Utilized Retrieval Augmented Generation (RAG) for dynamic content updates, achieving response time of under 30 seconds',
+      techStack: ['Python', 'Tensorflow'], githubLink: 'desaidj.github.io', 
+      skills: ['Machine Learning', 'Large Language Models'] 
+    },
+    { id: 8, name: 'Recommendation System', description: 
+    'This project implements a hybrid recommendation system that combines a machine learning model with a collaborative filtering approach to provide personalized recommendations for businesses on the Yelp platform.',
+    techStack: ['Python', 'Pyspark'], githubLink: 'https://github.com/desaidj/Yelp-Recommendation-System', 
+      skills: ['Machine Learning'] 
+    },
+    { id: 9, name: 'This website', description: 
     '• built this portfolio ',
       techStack: ['React.js', 'html', 'CSS'], githubLink: 'desaidj.github.io', 
       skills: ['FrontEnd'] 
     },
+
     // Add more projects with techStack, githubLink, and skills
   ];
 
