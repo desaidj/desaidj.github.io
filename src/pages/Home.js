@@ -22,7 +22,7 @@ function Home() {
             variant="contained"
             color="primary"
             size="large"
-            href="https://drive.google.com/file/d/15WDucvW-ayjz9IuNjWlHDSizewHzA9xE/view?usp=share_link"
+            href="https://drive.google.com/file/d/1Q2u6lqxv2Lka4VcvQNmxMxjI-b8D7rpM/view?usp=sharing"
           >
             See Resume
           </Button>

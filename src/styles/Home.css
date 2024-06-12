@@ -28,12 +28,17 @@
 }
 
 .about .prompt {
-  width: 40%;
-  font-size: 30px;
+  width: 80%; /* Adjust width for mobile view */
+  font-size: 24px; /* Adjust font size for mobile view */
+  margin-top: 100px; /* Add margin to separate from the heading */
+}
+
+.prompt p {
+  margin-bottom: 20px; /* Add margin below the paragraph */
 }
 
 .prompt svg {
-  font-size: 60px;
+  font-size: 40px; /* Adjust icon size for mobile view */
   margin: 5px;
   color: white;
 }
@@ -61,98 +66,6 @@
 }
 
 /* New styles for the professional section */
-.professional-section {
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.professional-section h1 {
-  font-size: 36px;
-  color: #3e497a;
-  margin-bottom: 20px;
-}
-
-.professional-section .description {
-  font-size: 18px;
-  line-height: 1.5;
-}
-
-.professional-section h2 {
-  font-size: 24px;
-  color: #3e497a;
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-.professional-section ul {
-  margin-left: 20px;
-}
-
-.professional-section li {
-  margin-bottom: 10px;
-}
-/* Home.css */
-
-/* Existing styles */
-.home {
-  width: 100%;
-  align-items: center;
-  font-family: "Arial", sans-serif;
-  color: #3e497a;
-}
-
-.about {
-  width: 100%;
-  height: calc(100vh - 100px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #21325e;
-  color: #f0f0f0;
-}
-
-.about h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 80px;
-  color: #e9d35b;
-  height: 50px;
-}
-
-.about .prompt {
-  width: 40%;
-  font-size: 30px;
-}
-
-.prompt svg {
-  font-size: 60px;
-  margin: 5px;
-  color: white;
-}
-
-.skills {
-  font-size: 35px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills h1 {
-  color: #3e497a;
-}
-
-.skills .list {
-  list-style: none;
-  width: 60%;
-}
-
-.list span {
-  font-size: 20px;
-}
-
 .professional-section {
   margin-top: 50px;
   padding: 20px;
@@ -186,4 +99,16 @@
   margin-bottom: 10px;
 }
 
+/* Add media query for smaller screens */
+@media (min-width: 768px) {
+  .section {
+    width: calc(50% - 40px); /* Adjust width for medium-sized screens */
+  }
+}
 
+/* Add media query for larger screens */
+@media (min-width: 1024px) {
+  .section {
+    width: calc(33.33% - 40px); /* Adjust width for larger screens */
+  }
+}
